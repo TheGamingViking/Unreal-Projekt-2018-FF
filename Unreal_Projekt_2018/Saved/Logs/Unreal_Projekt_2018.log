@@ -1,4 +1,4 @@
-﻿Log file open, 03/19/18 11:03:55
+﻿Log file open, 03/19/18 12:57:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Unreal_Projekt_2018
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(881440195) SRandInit(881440195).
+LogInit: Display: RandInit(-640940041) SRandInit(-640940041).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.177727
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.168729
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Binaries/Win64/UE4Editor-Unreal_Projekt_2018.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Binaries/Win64/UE4Editor-Unreal_Projekt_2018.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -190,810 +190,253 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.19-10.03.57:614][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.19-10.03.57:614][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.19-10.03.57:625][  0]LogInit: Computer: DESKTOP-CU1OTA2
-[2018.03.19-10.03.57:625][  0]LogInit: User: FrederikTaaningGrund
-[2018.03.19-10.03.57:625][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.19-10.03.57:625][  0]LogInit: High frequency timer resolution =3.117192 MHz
-[2018.03.19-10.03.57:626][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.19-10.03.57:626][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.19-10.03.57:626][  0]LogMemory: Process Physical Memory: 274.34 MB used, 274.34 MB peak
-[2018.03.19-10.03.57:626][  0]LogMemory: Process Virtual Memory: 269.37 MB used, 269.37 MB peak
-[2018.03.19-10.03.57:626][  0]LogMemory: Physical Memory: 4449.51 MB used,  11873.91 MB free, 16323.42 MB total
-[2018.03.19-10.03.57:626][  0]LogMemory: Virtual Memory: 677.32 MB used,  11873.91 MB free, 134217728.00 MB total
-[2018.03.19-10.03.57:766][  0]LogInit: Using OS detected language (en-GB).
-[2018.03.19-10.03.57:766][  0]LogInit: Using OS detected locale (da-DK).
-[2018.03.19-10.03.57:769][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.03.19-10.03.57:769][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en-GB' will be used for the locale.
-[2018.03.19-10.03.58:271][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.19-10.03.58:520][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.19-10.03.58:543][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2018.03.19-10.03.58:543][  0]LogD3D11RHI:       4072/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.03.19-10.03.58:545][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.19-10.03.58:545][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.19-10.03.58:545][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.19-10.03.58:550][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.19-10.03.58:550][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.19-10.03.58:550][  0]LogWindows: EnumDisplayDevices:
-[2018.03.19-10.03.58:550][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2018.03.19-10.03.58:550][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:550][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:550][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    7. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    8. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    9. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    10. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:551][  0]LogWindows:    11. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:552][  0]LogWindows:    12. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:552][  0]LogWindows:    13. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:552][  0]LogWindows:    14. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:552][  0]LogWindows:    15. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.03.19-10.03.58:552][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.19-10.03.58:552][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2018.03.19-10.03.58:552][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.19-10.03.58:552][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.19-10.03.58:552][  0]LogRHI: Texture pool is 2850 MB (70% of 4072 MB)
-[2018.03.19-10.03.58:585][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.19-10.03.58:596][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.03.19-10.03.58:597][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Intermediate/Shaders/WorkingDirectory/8060/).
-[2018.03.19-10.03.58:597][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/FrederikTaaningGrund/AppData/Local/Temp/UnrealShaderWorkingDir/B63AD58040C75BABCF80FC890E1DD910/'.
-[2018.03.19-10.03.58:597][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.19-10.03.59:459][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.19-10.03.59:508][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.19-10.03.59:558][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.19-10.03.59:607][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.19-10.03.59:655][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.19-10.03.59:703][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.19-10.03.59:751][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.19-10.03.59:799][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.19-10.03.59:841][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.19-10.03.59:889][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.19-10.03.59:938][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.19-10.03.59:986][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.19-10.04.00:034][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.19-10.04.00:082][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.19-10.04.00:179][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.19-10.04.00:179][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.19-10.04.00:225][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.19-10.04.00:261][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.19-10.04.00:348][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.19-10.04.00:373][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.19-10.04.00:419][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.19-10.04.00:467][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.19-10.04.00:517][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.19-10.04.00:569][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.19-10.04.00:569][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.19-10.04.01:025][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.19-10.04.01:093][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/FrederikTaaningGrund/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.19-10.04.01:093][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/FrederikTaaningGrund/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.19-10.04.01:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.19-10.04.01:093][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.19-10.04.01:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.19-10.04.01:093][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.19-10.04.01:109][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.19-10.04.01:122][  0]LogDerivedDataCache: Using Local data cache path C:/Users/FrederikTaaningGrund/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.19-10.04.01:132][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.19-10.04.01:133][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.19-10.04.01:133][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.19-10.04.01:133][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.19-10.04.01:490][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.19-10.04.01:817][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.19-10.04.01:857][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.19-10.04.01:857][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.19-10.04.01:857][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.19-10.04.01:857][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.19-10.04.01:857][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.19-10.04.01:884][  0]LogNetVersion: Unreal_Projekt_2018 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2101812546)
-[2018.03.19-10.04.02:047][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
-[2018.03.19-10.04.02:539][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.061717 seconds
-[2018.03.19-10.04.02:545][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.19-10.04.02:545][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.03.19-10.04.02:545][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.19-10.04.02:600][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.19-10.04.05:369][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.19-10.04.05:421][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.19-10.04.06:117][  0]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
-[2018.03.19-10.04.06:218][  0]LogMaterial: Missing cached shader map for material M_FPGun, compiling. 
-[2018.03.19-10.04.06:371][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2018.03.19-10.04.06:752][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.19-10.04.07:185][  0]SourceControl: Source control is disabled
-[2018.03.19-10.04.07:185][  0]SourceControl: Source control is disabled
-[2018.03.19-10.04.07:240][  0]SourceControl: Source control is disabled
-[2018.03.19-10.04.07:300][  0]SourceControl: Source control is disabled
-[2018.03.19-10.04.08:135][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.19-10.04.08:408][  0]LogOcInput: OculusInput pre-init called
-[2018.03.19-10.04.08:677][  0]LogEngine: Initializing Engine...
-[2018.03.19-10.04.08:680][  0]LogHMD: Failed to initialize OpenVR with code 100
-[2018.03.19-10.04.08:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.19-10.04.08:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.19-10.04.09:038][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.19-10.04.09:049][  0]LogInit: XAudio2 using '6 - HDMI (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.19-10.04.09:069][  0]LogInit: FAudioDevice initialized.
-[2018.03.19-10.04.09:144][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/FrederikTaaningGrund/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.19-10.04.09:153][  0]LogInit: Texture streaming: Enabled
-[2018.03.19-10.04.09:249][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.19-10.04.09:380][  0]LogInit: Transaction tracking system initialized
-[2018.03.19-10.04.09:718][  0]BlueprintLog: New page: Editor Load
-[2018.03.19-10.04.10:820][  0]LocalizationService: Localization service is disabled
-[2018.03.19-10.04.11:693][  0]LogConsoleResponse: Display: 
-[2018.03.19-10.04.11:918][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.19-10.04.11:918][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.19-10.04.11:918][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.19-10.04.12:775][  0]LogFileCache: Scanning file cache for directory 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/' took 0.01s
-[2018.03.19-10.04.13:154][  0]SourceControl: Source control is disabled
-[2018.03.19-10.04.13:156][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.18/FeaturePacks/StarterContent.upack)
-[2018.03.19-10.04.13:167][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.03.19-10.04.13:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.03.19-10.04.13:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.03.19-10.04.13:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.03.19-10.04.13:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.03.19-10.04.13:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.03.19-10.04.13:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.03.19-10.04.13:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.03.19-10.04.13:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.03.19-10.04.13:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.03.19-10.04.13:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.03.19-10.04.13:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.03.19-10.04.13:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.03.19-10.04.13:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.03.19-10.04.13:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.03.19-10.04.13:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.03.19-10.04.13:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.03.19-10.04.13:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.03.19-10.04.13:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Fire01.uasset"
-[2018.03.19-10.04.13:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.03.19-10.04.13:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.03.19-10.04.13:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.03.19-10.04.13:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Light01.uasset"
-[2018.03.19-10.04.13:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.03.19-10.04.13:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Light02.uasset"
-[2018.03.19-10.04.13:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.03.19-10.04.13:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.03.19-10.04.13:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.03.19-10.04.13:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.03.19-10.04.13:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.03.19-10.04.13:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.03.19-10.04.13:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.03.19-10.04.13:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.03.19-10.04.13:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.03.19-10.04.13:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Steam01.uasset"
-[2018.03.19-10.04.13:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.03.19-10.04.13:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.03.19-10.04.13:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.03.19-10.04.13:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.03.19-10.04.13:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.03.19-10.04.13:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.03.19-10.04.13:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.03.19-10.04.13:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.03.19-10.04.13:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.03.19-10.04.13:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.03.19-10.04.13:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.03.19-10.04.13:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.03.19-10.04.13:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.03.19-10.04.13:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.03.19-10.04.13:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.03.19-10.04.13:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.03.19-10.04.13:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.03.19-10.04.14:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.03.19-10.04.14:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.03.19-10.04.14:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.03.19-10.04.14:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.03.19-10.04.14:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.03.19-10.04.14:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Maps/StarterMap.umap"
-[2018.03.19-10.04.14:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.03.19-10.04.14:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.03.19-10.04.14:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.03.19-10.04.14:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.03.19-10.04.14:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.03.19-10.04.14:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.03.19-10.04.14:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.03.19-10.04.14:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.03.19-10.04.14:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.03.19-10.04.14:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.03.19-10.04.14:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.03.19-10.04.14:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.03.19-10.04.14:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.03.19-10.04.14:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.03.19-10.04.14:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.03.19-10.04.14:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.03.19-10.04.14:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.03.19-10.04.14:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.03.19-10.04.14:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.03.19-10.04.14:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.03.19-10.04.14:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.03.19-10.04.14:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.03.19-10.04.14:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.03.19-10.04.14:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.03.19-10.04.14:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.03.19-10.04.14:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.03.19-10.04.14:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.03.19-10.04.14:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.03.19-10.04.14:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.03.19-10.04.14:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.03.19-10.04.14:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.03.19-10.04.14:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.03.19-10.04.14:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.03.19-10.04.14:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.03.19-10.04.14:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.03.19-10.04.14:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.03.19-10.04.14:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.03.19-10.04.14:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.03.19-10.04.14:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.03.19-10.04.14:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.03.19-10.04.14:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.03.19-10.04.14:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.03.19-10.04.14:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.03.19-10.04.14:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.03.19-10.04.14:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.03.19-10.04.14:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.03.19-10.04.14:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.03.19-10.04.14:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.03.19-10.04.14:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.03.19-10.04.14:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.03.19-10.04.14:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.03.19-10.04.15:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.03.19-10.04.15:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.03.19-10.04.15:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.03.19-10.04.15:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.03.19-10.04.15:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.03.19-10.04.15:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.03.19-10.04.15:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.03.19-10.04.15:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.03.19-10.04.15:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.03.19-10.04.15:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.03.19-10.04.15:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.03.19-10.04.15:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.03.19-10.04.15:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.03.19-10.04.15:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.03.19-10.04.15:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Door.uasset"
-[2018.03.19-10.04.15:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.03.19-10.04.15:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.03.19-10.04.15:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.03.19-10.04.15:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.03.19-10.04.15:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.03.19-10.04.15:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.03.19-10.04.15:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.03.19-10.04.15:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.03.19-10.04.15:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.03.19-10.04.15:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.03.19-10.04.15:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.03.19-10.04.15:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.03.19-10.04.15:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.03.19-10.04.15:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.03.19-10.04.15:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.03.19-10.04.15:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.03.19-10.04.15:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.03.19-10.04.15:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.03.19-10.04.15:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.03.19-10.04.15:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.03.19-10.04.15:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.03.19-10.04.15:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.03.19-10.04.15:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.03.19-10.04.15:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.03.19-10.04.15:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.03.19-10.04.15:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.03.19-10.04.15:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.03.19-10.04.15:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.03.19-10.04.15:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.03.19-10.04.15:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.03.19-10.04.15:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.03.19-10.04.15:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.03.19-10.04.15:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.03.19-10.04.15:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.03.19-10.04.15:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.03.19-10.04.15:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.03.19-10.04.15:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.03.19-10.04.15:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.03.19-10.04.15:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.03.19-10.04.15:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.03.19-10.04.15:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.03.19-10.04.15:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.03.19-10.04.15:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.03.19-10.04.15:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.03.19-10.04.15:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.03.19-10.04.15:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.03.19-10.04.15:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.03.19-10.04.15:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.03.19-10.04.15:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.03.19-10.04.16:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.03.19-10.04.16:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.03.19-10.04.16:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.03.19-10.04.16:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.03.19-10.04.16:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.03.19-10.04.16:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.03.19-10.04.16:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.03.19-10.04.16:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.03.19-10.04.16:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.03.19-10.04.16:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.03.19-10.04.16:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.03.19-10.04.16:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.03.19-10.04.16:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.03.19-10.04.16:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.03.19-10.04.16:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.03.19-10.04.16:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.03.19-10.04.16:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.03.19-10.04.16:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.03.19-10.04.16:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.03.19-10.04.16:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.03.19-10.04.16:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.03.19-10.04.16:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.03.19-10.04.16:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.03.19-10.04.16:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.03.19-10.04.16:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.03.19-10.04.16:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.03.19-10.04.16:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.03.19-10.04.16:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.03.19-10.04.16:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.03.19-10.04.16:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.03.19-10.04.16:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.03.19-10.04.16:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.03.19-10.04.16:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.03.19-10.04.16:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.03.19-10.04.16:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.03.19-10.04.16:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.03.19-10.04.16:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.03.19-10.04.16:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.03.19-10.04.16:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.03.19-10.04.16:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.03.19-10.04.16:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.03.19-10.04.16:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.03.19-10.04.16:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.03.19-10.04.16:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.03.19-10.04.16:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.03.19-10.04.16:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.03.19-10.04.17:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.03.19-10.04.17:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.03.19-10.04.17:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.03.19-10.04.17:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.03.19-10.04.17:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.03.19-10.04.17:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.03.19-10.04.17:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.03.19-10.04.17:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.03.19-10.04.17:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.03.19-10.04.17:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.03.19-10.04.17:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.03.19-10.04.17:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.03.19-10.04.17:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.03.19-10.04.17:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.03.19-10.04.17:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.03.19-10.04.17:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.03.19-10.04.17:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.03.19-10.04.17:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.03.19-10.04.17:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.03.19-10.04.17:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.03.19-10.04.17:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.03.19-10.04.17:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.03.19-10.04.17:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.03.19-10.04.17:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.03.19-10.04.17:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.03.19-10.04.17:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.03.19-10.04.17:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.03.19-10.04.17:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.03.19-10.04.17:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.03.19-10.04.17:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.03.19-10.04.17:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.03.19-10.04.17:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.03.19-10.04.17:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.03.19-10.04.17:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.03.19-10.04.17:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.03.19-10.04.17:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.03.19-10.04.17:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.03.19-10.04.17:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.03.19-10.04.17:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.03.19-10.04.17:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.03.19-10.04.17:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.03.19-10.04.17:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.03.19-10.04.17:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.03.19-10.04.17:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.03.19-10.04.17:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.03.19-10.04.17:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.03.19-10.04.17:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.03.19-10.04.18:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.03.19-10.04.18:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.03.19-10.04.18:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.03.19-10.04.18:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.03.19-10.04.18:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.03.19-10.04.18:234][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.03.19-10.04.18:632][  0]LogSavePackage: Save=13.92ms
-[2018.03.19-10.04.18:632][  0]LogSavePackage: Moving '../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Saved/Floor_400x4007D7AE8274F25C69529F47D85F42CEF8A.tmp' to '../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.03.19-10.04.18:637][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.03.19-10.04.18:637][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.03.19-10.04.18:642][  0]LightingResults: New page: Lighting Build
-[2018.03.19-10.04.18:683][  0]MapCheck: New page: Map Check
-[2018.03.19-10.04.18:683][  0]LightingResults: New page: Lighting Build
-[2018.03.19-10.04.18:959][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
-[2018.03.19-10.04.18:959][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2018.03.19-10.04.18:959][  0]LogMaterial: Missing cached shader map for material AntiAliasedTextMaterialTranslucent, compiling. 
-[2018.03.19-10.04.20:419][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
-[2018.03.19-10.04.23:015][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
-[2018.03.19-10.04.23:015][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
-[2018.03.19-10.04.23:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2018.03.19-10.04.23:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
-[2018.03.19-10.04.23:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
-[2018.03.19-10.04.23:015][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
-[2018.03.19-10.04.24:702][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
-[2018.03.19-10.04.24:772][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
-[2018.03.19-10.04.24:772][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
-[2018.03.19-10.04.24:789][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
-[2018.03.19-10.04.24:825][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.03.19-10.04.24:837][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.19-10.04.24:849][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.19-10.04.24:911][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.573ms to complete.
-[2018.03.19-10.04.24:911][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 6.269
-[2018.03.19-10.04.24:965][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.19-10.04.25:123][  0]LogCollectionManager: Loaded 0 collections in 0.001353 seconds
-[2018.03.19-10.04.25:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Saved/Collections/' took 0.01s
-[2018.03.19-10.04.25:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/Developers/FrederikTaaningGrund/Collections/' took 0.01s
-[2018.03.19-10.04.25:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/Collections/' took 0.01s
-[2018.03.19-10.04.25:222][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.19-10.04.25:233][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2368 classes and 523 folders.
-[2018.03.19-10.04.25:314][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.03.19-10.04.25:351][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.03.19-10.04.25:411][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.19-10.04.25:415][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.19-10.04.25:423][  0]LogSlate: Took 0.006284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.19-10.04.25:429][  0]LogSlate: Took 0.005727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.03.19-10.04.25:560][  0]LogRenderer: Reallocating scene render targets to support 772x416 Format 10 NumSamples 1 (Frame:1).
-[2018.03.19-10.04.25:620][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.19-10.04.26:143][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.03.19-10.04.26:143][  0]LogLoad: (Engine Initialization) Total time: 31.28 seconds
-[2018.03.19-10.04.26:143][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.19-10.04.26:143][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.03.19-10.04.26:143][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.03.19-10.04.26:190][  0]LogAssetRegistry: Asset discovery search completed in 24.1647 seconds
-[2018.03.19-10.04.26:192][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.19-10.04.26:192][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000191 seconds (updated 0 objects)
-[2018.03.19-10.04.26:315][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.19-10.12.40:355][196]LogVSAccessor: Warning: Couldn't access Visual Studio
-[2018.03.19-10.12.40:361][196]Candidate modules for hot reload:
-[2018.03.19-10.12.40:362][196]  Unreal_Projekt_2018
-[2018.03.19-10.12.40:362][196]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/DotNET/UnrealBuildTool.exe Unreal_Projekt_2018 -ModuleWithSuffix Unreal_Projekt_2018 3200 Win64 Development -editorrecompile -canskiplink "C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Unreal_Projekt_2018.uproject" ]
-[2018.03.19-10.12.40:366][196]Warning: Starting HotReload took  0.0s.
-[2018.03.19-10.12.46:346][912]CompilerResultsLog: New page: Compilation - 19 Mar 2018 12:12:46
-[2018.03.19-10.12.46:347][912]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
-[2018.03.19-10.12.46:347][912]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.03.19-10.12.46:347][912]CompilerResultsLog: Creating makefile for hot reloading Unreal_Projekt_2018 (no existing makefile)
-[2018.03.19-10.12.46:347][912]CompilerResultsLog: Compiling game modules for hot reload
-[2018.03.19-10.12.46:347][912]CompilerResultsLog: Target is up to date
-[2018.03.19-10.12.46:347][912]CompilerResultsLog: Total build time: 5,73 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2018.03.19-10.12.46:347][912]LogMainFrame: MainFrame: Module compiling took 5.993 seconds
-[2018.03.19-10.12.46:369][912]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2369 classes and 525 folders.
-[2018.03.19-10.12.46:370][912]Display: HotReload took  6.0s.
-[2018.03.19-10.17.06:006][840]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.19-10.17.06:083][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.03.19-10.17.06:084][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.19-10.17.06:085][840]PIE: New page: PIE session: FirstPersonExampleMap (19 Mar 2018 12:17:06)
-[2018.03.19-10.17.06:085][840]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.03.19-10.17.06:109][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024562s)
-[2018.03.19-10.17.06:111][840]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.03.19-10.17.06:111][840]LogPlayLevel: PIE: World Init took: (0.001528s)
-[2018.03.19-10.17.06:112][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026867s)
-[2018.03.19-10.17.06:128][840]LogInit: XAudio2 using '6 - HDMI (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.03.19-10.17.06:135][840]LogInit: FAudioDevice initialized.
-[2018.03.19-10.17.06:178][840]LogLoad: Game class is 'Unreal_Projekt_2018GameMode'
-[2018.03.19-10.17.06:181][840]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.03.19-11.17.06
-[2018.03.19-10.17.06:182][840]LogWorld: Bringing up level for play took: 0.002531
-[2018.03.19-10.17.06:236][840]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.03.19-10.17.06:237][840]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.072
-[2018.03.19-10.17.06:238][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.03.19-10.17.31:973][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.03.19-10.17.32:008][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.03.19-10.17.32:039][920]Cmd: SELECT NONE
-[2018.03.19-10.17.48:087][816]Cmd: QUIT_EDITOR
-[2018.03.19-10.17.48:304][816]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.19-10.17.48:345][816]LogExit: Preparing to exit.
-[2018.03.19-10.17.48:682][816]LogDirectoryWatcher: A directory notification for 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/' was aborted.
-[2018.03.19-10.17.48:701][816]LogExit: Editor shut down
-[2018.03.19-10.17.48:713][816]LogExit: Transaction tracking system shut down
-[2018.03.19-10.17.48:926][816]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.03.19-10.17.48:926][816]LogDirectoryWatcher: A directory notification for '../../../../../../Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/' was aborted.
-[2018.03.19-10.17.48:926][816]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.03.19-10.17.48:926][816]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.03.19-10.17.48:927][816]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.03.19-10.17.48:927][816]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.03.19-10.17.48:927][816]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.03.19-10.17.48:969][816]LogExit: Object subsystem successfully closed.
-[2018.03.19-10.17.48:987][816]LogD3D11RHI: Shutdown
-[2018.03.19-10.17.48:987][816]LogD3D11RHI: CleanupD3DDevice
-[2018.03.19-10.17.48:990][816]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.03.19-10.17.49:006][816]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
-[2018.03.19-10.17.49:006][816]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
-[2018.03.19-10.17.49:006][816]LogModuleManager: Shutting down and abandoning module DesktopPlatform (548)
-[2018.03.19-10.17.49:006][816]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2018.03.19-10.17.49:006][816]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.03.19-10.17.49:007][816]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2018.03.19-10.17.49:007][816]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2018.03.19-10.17.49:007][816]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2018.03.19-10.17.49:007][816]LogDirectoryWatcher: A directory notification for 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/Collections/' was aborted.
-[2018.03.19-10.17.49:007][816]LogDirectoryWatcher: A directory notification for 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/Developers/FrederikTaaningGrund/Collections/' was aborted.
-[2018.03.19-10.17.49:007][816]LogDirectoryWatcher: A directory notification for 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Saved/Collections/' was aborted.
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.03.19-10.17.49:008][816]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.03.19-10.17.49:009][816]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.03.19-10.17.49:507][816]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.03.19-10.17.49:508][816]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.03.19-10.17.49:509][816]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.03.19-10.17.49:509][816]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.03.19-10.17.49:509][816]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.03.19-10.17.49:509][816]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.03.19-10.17.49:509][816]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.03.19-10.17.49:509][816]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.03.19-10.17.49:509][816]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.03.19-10.17.49:563][816]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.03.19-10.17.49:563][816]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.03.19-10.17.49:563][816]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.03.19-10.17.49:563][816]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.03.19-10.17.49:563][816]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.03.19-10.17.49:563][816]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.03.19-10.17.49:564][816]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.03.19-10.17.49:564][816]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.03.19-10.17.49:564][816]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.03.19-10.17.49:564][816]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.03.19-10.17.49:566][816]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.03.19-10.17.49:567][816]LogModuleManager: Shutting down and abandoning module ProfilerService (350)
-[2018.03.19-10.17.49:626][816]LogModuleManager: Shutting down and abandoning module TaskGraph (348)
-[2018.03.19-10.17.49:626][816]LogModuleManager: Shutting down and abandoning module SteamVRController (346)
-[2018.03.19-10.17.49:626][816]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (344)
-[2018.03.19-10.17.49:626][816]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (342)
-[2018.03.19-10.17.49:626][816]LogModuleManager: Shutting down and abandoning module OculusInput (340)
-[2018.03.19-10.17.49:626][816]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (338)
-[2018.03.19-10.17.49:626][816]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (336)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module CableComponent (334)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (332)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module AndroidPermission (330)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (324)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (322)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module MediaCompositing (320)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module HTML5Networking (318)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module AlembicImporter (316)
-[2018.03.19-10.17.49:627][816]LogModuleManager: Shutting down and abandoning module AlembicLibrary (315)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module GeometryCache (314)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (313)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (308)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module PluginBrowser (306)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (304)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (302)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (300)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module UObjectPlugin (298)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (296)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (294)
-[2018.03.19-10.17.49:628][816]LogModuleManager: Shutting down and abandoning module GitSourceControl (292)
-[2018.03.19-10.17.49:629][816]LogModuleManager: Shutting down and abandoning module SourceControl (291)
-[2018.03.19-10.17.49:629][816]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2018.03.19-10.17.49:629][816]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2018.03.19-10.17.49:629][816]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2018.03.19-10.17.49:629][816]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2018.03.19-10.17.49:629][816]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2018.03.19-10.17.49:629][816]LogModuleManager: Shutting down and abandoning module LevelEditor (279)
-[2018.03.19-10.17.49:631][816]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (278)
-[2018.03.19-10.17.49:633][816]LogModuleManager: Shutting down and abandoning module MainFrame (276)
-[2018.03.19-10.17.49:633][816]LogModuleManager: Shutting down and abandoning module HotReload (275)
-[2018.03.19-10.17.49:633][816]LogDirectoryWatcher: A directory notification for 'C:/Users/FrederikTaaningGrund/Desktop/Unreal Projekt 2018 FF/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Binaries/Win64' was aborted.
-[2018.03.19-10.17.49:633][816]LogModuleManager: Shutting down and abandoning module Unreal_Projekt_2018 (270)
-[2018.03.19-10.17.49:634][816]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.03.19-10.17.49:634][816]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.03.19-10.17.49:634][816]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.03.19-10.17.49:634][816]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.03.19-10.17.49:634][816]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.03.19-10.17.49:634][816]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.03.19-10.17.49:635][816]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.03.19-10.17.49:635][816]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.03.19-10.17.49:736][816]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.03.19-10.17.49:837][816]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.03.19-10.17.49:837][816]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.03.19-10.17.49:837][816]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.03.19-10.17.49:837][816]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.03.19-10.17.49:837][816]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.03.19-10.17.49:837][816]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.03.19-10.17.49:840][816]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.03.19-10.17.49:840][816]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.03.19-10.17.49:840][816]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.03.19-10.17.49:840][816]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.03.19-10.17.49:845][816]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.03.19-10.17.49:846][816]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.03.19-10.17.49:846][816]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.03.19-10.17.49:846][816]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.03.19-10.17.49:846][816]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.03.19-10.17.49:846][816]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.03.19-10.17.49:853][816]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.03.19-10.17.49:853][816]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.03.19-10.17.49:853][816]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.03.19-10.17.49:853][816]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.03.19-10.17.49:853][816]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.03.19-10.17.49:853][816]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.03.19-10.17.49:854][816]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.03.19-10.17.49:854][816]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.03.19-10.17.49:854][816]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.03.19-10.17.49:854][816]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.03.19-10.17.49:854][816]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.03.19-10.17.49:854][816]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.03.19-10.17.49:855][816]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.03.19-10.17.49:855][816]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.03.19-10.17.49:855][816]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.03.19-10.17.49:855][816]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.03.19-10.17.49:862][816]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.03.19-10.17.49:866][816]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.03.19-10.17.49:876][816]LogDerivedDataCache: Shutdown
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.03.19-10.17.49:877][816]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.03.19-10.17.49:878][816]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.03.19-10.17.49:879][816]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.03.19-10.17.49:880][816]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.03.19-10.17.49:880][816]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.03.19-10.17.49:880][816]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF8C338B7-4216-96CF-70D1-4DBB90B29BD1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=50b63708448071c3e4de56af8199493a%7C2b23d7ae54a04e2dba6b3ee8390f7aca%7C6dd4bd45-9e7e-4e1e-9dd3-2f99d8d900e6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.03.19-10.17.49:883][816]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.03.19-10.17.49:886][816]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.03.19-10.17.49:886][816]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.03.19-10.17.49:886][816]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.03.19-10.17.49:886][816]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.03.19-10.17.49:886][816]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.03.19-10.17.49:886][816]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.03.19-10.17.49:886][816]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.03.19-10.17.49:887][816]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.03.19-10.17.49:888][816]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.03.19-10.17.49:888][816]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.03.19-10.17.49:888][816]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.03.19-10.17.49:894][816]LogExit: Exiting.
-[2018.03.19-10.17.49:921][816]Log file closed, 03/19/18 11:17:49
+[2018.03.19-11.57.43:944][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.19-11.57.43:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.19-11.57.43:972][  0]LogInit: Computer: FREDERIK
+[2018.03.19-11.57.43:972][  0]LogInit: User: FrederikH
+[2018.03.19-11.57.43:972][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.03.19-11.57.43:972][  0]LogInit: High frequency timer resolution =1.656321 MHz
+[2018.03.19-11.57.43:973][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.19-11.57.43:973][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.19-11.57.43:973][  0]LogMemory: Process Physical Memory: 270.22 MB used, 270.22 MB peak
+[2018.03.19-11.57.43:973][  0]LogMemory: Process Virtual Memory: 269.11 MB used, 269.11 MB peak
+[2018.03.19-11.57.43:973][  0]LogMemory: Physical Memory: 5699.32 MB used,  2424.52 MB free, 8123.84 MB total
+[2018.03.19-11.57.43:973][  0]LogMemory: Virtual Memory: 618.52 MB used,  2424.52 MB free, 134217728.00 MB total
+[2018.03.19-11.57.44:254][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.19-11.57.44:255][  0]LogInit: Using OS detected locale (da-DK).
+[2018.03.19-11.57.44:260][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.19-11.57.44:261][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en-GB' will be used for the locale.
+[2018.03.19-11.57.45:024][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.19-11.57.45:596][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.19-11.57.45:615][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2018.03.19-11.57.45:615][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.19-11.57.45:617][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.19-11.57.45:617][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.19-11.57.45:617][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.19-11.57.45:625][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.19-11.57.45:625][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.19-11.57.45:626][  0]LogWindows: EnumDisplayDevices:
+[2018.03.19-11.57.45:626][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.03.19-11.57.45:626][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:626][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:627][  0]LogWindows:    3. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:627][  0]LogWindows:    4. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:627][  0]LogWindows:    5. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:627][  0]LogWindows:    6. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:628][  0]LogWindows:    7. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:628][  0]LogWindows:    8. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.03.19-11.57.45:629][  0]LogWindows: DebugString: FoundDriverCount:9 
+[2018.03.19-11.57.45:629][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2018.03.19-11.57.45:629][  0]LogD3D11RHI:   Driver Version: 10.18.10.3368 (internal:10.18.10.3368, unified:10.18.10.3368)
+[2018.03.19-11.57.45:629][  0]LogD3D11RHI:      Driver Date: 11-28-2013
+[2018.03.19-11.57.45:629][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2018.03.19-11.57.45:645][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.19-11.57.45:659][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.03.19-11.57.45:661][  0]LogShaderCompilers: Guid format shader working directory is -50 characters bigger than the processId version (../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Intermediate/Shaders/WorkingDirectory/11036/).
+[2018.03.19-11.57.45:661][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Frederik H/AppData/Local/Temp/UnrealShaderWorkingDir/3D8803C24B3A737E63EF1193EE64AF29/'.
+[2018.03.19-11.57.45:661][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.19-11.57.47:827][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.19-11.57.47:928][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.19-11.57.48:030][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.19-11.57.48:132][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.19-11.57.48:243][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.19-11.57.48:344][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.19-11.57.48:445][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.19-11.57.48:547][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.19-11.57.48:640][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.19-11.57.48:739][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.19-11.57.48:838][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.19-11.57.48:937][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.19-11.57.49:038][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.19-11.57.49:138][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.19-11.57.49:339][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.19-11.57.49:339][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.19-11.57.49:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.19-11.57.49:516][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.19-11.57.49:679][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.19-11.57.49:731][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.19-11.57.49:829][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.19-11.57.49:927][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.19-11.57.50:027][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.19-11.57.50:125][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.19-11.57.50:126][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.19-11.57.50:997][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.19-11.57.51:164][  0]LogDerivedDataCache: Loaded boot cache 0.17s 79MB C:/Users/Frederik H/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.19-11.57.51:165][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Frederik H/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.19-11.57.51:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.19-11.57.51:165][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.19-11.57.51:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.19-11.57.51:165][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.19-11.57.51:203][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.19-11.57.51:217][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Frederik H/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.19-11.57.51:238][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.19-11.57.51:239][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.19-11.57.51:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.19-11.57.51:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.19-11.57.52:009][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.19-11.57.52:676][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.19-11.57.52:761][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.19-11.57.52:761][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.19-11.57.52:761][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.19-11.57.52:762][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.19-11.57.52:762][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.19-11.57.52:812][  0]LogNetVersion: Unreal_Projekt_2018 , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2101812546)
+[2018.03.19-11.57.53:130][  0]LogAssetRegistry: FAssetRegistry took 0.0313 seconds to start up
+[2018.03.19-11.57.54:411][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.228738 seconds
+[2018.03.19-11.57.54:423][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.19-11.57.54:423][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.19-11.57.54:423][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.19-11.57.54:517][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.19-11.58.00:206][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.19-11.58.00:310][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.19-11.58.02:167][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.19-11.58.03:002][  0]SourceControl: Source control is disabled
+[2018.03.19-11.58.03:003][  0]SourceControl: Source control is disabled
+[2018.03.19-11.58.03:110][  0]SourceControl: Source control is disabled
+[2018.03.19-11.58.03:222][  0]SourceControl: Source control is disabled
+[2018.03.19-11.58.04:823][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.19-11.58.05:360][  0]LogOcInput: OculusInput pre-init called
+[2018.03.19-11.58.05:870][  0]LogEngine: Initializing Engine...
+[2018.03.19-11.58.05:875][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.19-11.58.06:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.19-11.58.06:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.19-11.58.06:726][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.19-11.58.06:738][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-11.58.06:762][  0]LogInit: FAudioDevice initialized.
+[2018.03.19-11.58.07:048][  0]LogDerivedDataCache: Saved boot cache 0.29s 79MB C:/Users/Frederik H/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.19-11.58.07:062][  0]LogInit: Texture streaming: Enabled
+[2018.03.19-11.58.07:268][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.19-11.58.07:279][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={22414A37-4D34-9B0D-6691-C48798AD50D0}
+[2018.03.19-11.58.07:527][  0]LogInit: Transaction tracking system initialized
+[2018.03.19-11.58.08:144][  0]BlueprintLog: New page: Editor Load
+[2018.03.19-11.58.09:992][  0]LocalizationService: Localization service is disabled
+[2018.03.19-11.58.11:421][  0]LogConsoleResponse: Display: 
+[2018.03.19-11.58.11:807][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.19-11.58.11:808][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.19-11.58.11:808][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.19-11.58.12:625][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/' took 0.02s
+[2018.03.19-11.58.14:302][  0]SourceControl: Source control is disabled
+[2018.03.19-11.58.14:303][  0]LightingResults: New page: Lighting Build
+[2018.03.19-11.58.14:388][  0]MapCheck: New page: Map Check
+[2018.03.19-11.58.14:388][  0]LightingResults: New page: Lighting Build
+[2018.03.19-11.58.14:554][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.03.19-11.58.14:554][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2018.03.19-11.58.14:554][  0]LoadErrors: Error: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData
+[2018.03.19-11.58.14:568][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.03.19-11.58.14:568][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2018.03.19-11.58.14:568][  0]LoadErrors: Error: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData
+[2018.03.19-11.58.14:576][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.03.19-11.58.14:576][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.03.19-11.58.14:576][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.03.19-11.58.14:577][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.03.19-11.58.14:604][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2018.03.19-11.58.14:604][  0]LoadErrors: Failed to load /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.03.19-11.58.14:604][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2018.03.19-11.58.14:604][  0]LoadErrors: Failed to load /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.03.19-11.58.14:741][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.03.19-11.58.14:782][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.19-11.58.14:819][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.19-11.58.14:972][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 152.423ms to complete.
+[2018.03.19-11.58.14:973][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.670
+[2018.03.19-11.58.15:189][  0]LogCollectionManager: Loaded 0 collections in 0.002724 seconds
+[2018.03.19-11.58.15:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Saved/Collections/' took 0.01s
+[2018.03.19-11.58.15:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/Developers/FrederikH/Collections/' took 0.01s
+[2018.03.19-11.58.15:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/Collections/' took 0.01s
+[2018.03.19-11.58.15:316][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.19-11.58.15:337][  0]LogContentBrowser: Native class hierarchy populated in 0.0205 seconds. Added 2367 classes and 521 folders.
+[2018.03.19-11.58.15:464][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.03.19-11.58.15:542][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.03.19-11.58.15:626][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.03.19-11.58.15:699][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.19-11.58.15:703][  0]LogSlate: Took 0.000476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.19-11.58.15:718][  0]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.19-11.58.15:918][  0]LogRenderer: Reallocating scene render targets to support 836x372 Format 10 NumSamples 1 (Frame:1).
+[2018.03.19-11.58.17:604][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.03.19-11.58.17:604][  0]LogLoad: (Engine Initialization) Total time: 39.45 seconds
+[2018.03.19-11.58.17:605][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.19-11.58.17:605][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.19-11.58.17:605][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.19-11.58.17:963][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.19-11.58.18:064][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-11.58.18:816][  2]LogAssetRegistry: Asset discovery search completed in 25.7086 seconds
+[2018.03.19-11.58.18:820][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.19-11.58.18:820][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000106 seconds (updated 0 objects)
+[2018.03.19-12.00.16:199][171]LogSlate: Took 0.005285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.19-12.00.16:846][171]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.19-12.00.17:003][171]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
+[2018.03.19-12.00.19:365][171]LogSlate: Took 0.025101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.19-12.00.23:026][277]LogSlate: Took 0.018646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.19-12.00.42:241][951]LogRenderer: Reallocating scene render targets to support 836x588 Format 10 NumSamples 1 (Frame:1).
+[2018.03.19-12.01.18:326][451]LogSavePackage: Save=77.28ms
+[2018.03.19-12.01.18:327][451]LogSavePackage: Moving '../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Saved/FirstPersonProjectileD3387119454DAB52468302919B74E3F7.tmp' to '../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
+[2018.03.19-12.01.18:370][451]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
+[2018.03.19-12.01.19:855][486]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.19-12.01.20:114][486]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.01.20:114][486]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.19-12.01.20:116][486]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2018.03.19-12.01.20:685][486]LogPlayLevel: PlayLevel: Blueprint regeneration took 570 ms (1 blueprints)
+[2018.03.19-12.01.20:739][486]PIE: New page: PIE session: FirstPersonExampleMap (19 Mar 2018 14:01:20)
+[2018.03.19-12.01.20:739][486]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.03.19-12.01.20:821][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082220s)
+[2018.03.19-12.01.20:825][486]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.03.19-12.01.20:826][486]LogPlayLevel: PIE: World Init took: (0.004484s)
+[2018.03.19-12.01.20:827][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.087659s)
+[2018.03.19-12.01.20:881][486]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-12.01.20:894][486]LogInit: FAudioDevice initialized.
+[2018.03.19-12.01.20:966][486]LogLoad: Game class is 'Unreal_Projekt_2018GameMode'
+[2018.03.19-12.01.20:992][486]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.03.19-13.01.20
+[2018.03.19-12.01.20:993][486]LogWorld: Bringing up level for play took: 0.004872
+[2018.03.19-12.01.21:127][486]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2018.03.19-12.01.21:135][486]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.181
+[2018.03.19-12.01.21:136][486]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.01.21:535][486]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.03.19-12.01.28:121][556]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.01.28:316][556]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.02.40:594][421]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.19-12.02.40:636][421]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.02.40:636][421]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.19-12.02.40:638][421]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2018.03.19-12.02.41:345][421]LogPlayLevel: PlayLevel: Blueprint regeneration took 708 ms (1 blueprints)
+[2018.03.19-12.02.41:345][421]PIE: New page: PIE session: FirstPersonExampleMap (19 Mar 2018 14:02:41)
+[2018.03.19-12.02.41:345][421]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.03.19-12.02.41:393][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047871s)
+[2018.03.19-12.02.41:402][421]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.03.19-12.02.41:403][421]LogPlayLevel: PIE: World Init took: (0.008910s)
+[2018.03.19-12.02.41:404][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.058684s)
+[2018.03.19-12.02.41:451][421]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-12.02.41:463][421]LogInit: FAudioDevice initialized.
+[2018.03.19-12.02.41:511][421]LogLoad: Game class is 'Unreal_Projekt_2018GameMode'
+[2018.03.19-12.02.41:517][421]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.03.19-13.02.41
+[2018.03.19-12.02.41:517][421]LogWorld: Bringing up level for play took: 0.005113
+[2018.03.19-12.02.41:524][421]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.57
+[2018.03.19-12.02.41:525][421]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.02.48:161][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.02.48:339][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.03.07:611][806]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.19-12.03.07:666][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.03.07:666][806]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.19-12.03.07:667][806]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2018.03.19-12.03.08:506][806]LogPlayLevel: PlayLevel: Blueprint regeneration took 839 ms (1 blueprints)
+[2018.03.19-12.03.08:506][806]PIE: New page: PIE session: FirstPersonExampleMap (19 Mar 2018 14:03:08)
+[2018.03.19-12.03.08:506][806]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.03.19-12.03.08:556][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049271s)
+[2018.03.19-12.03.08:565][806]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.03.19-12.03.08:566][806]LogPlayLevel: PIE: World Init took: (0.009321s)
+[2018.03.19-12.03.08:567][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.060191s)
+[2018.03.19-12.03.08:609][806]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.19-12.03.08:619][806]LogInit: FAudioDevice initialized.
+[2018.03.19-12.03.08:675][806]LogLoad: Game class is 'Unreal_Projekt_2018GameMode'
+[2018.03.19-12.03.08:679][806]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.03.19-13.03.08
+[2018.03.19-12.03.08:680][806]LogWorld: Bringing up level for play took: 0.003379
+[2018.03.19-12.03.08:684][806]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.73
+[2018.03.19-12.03.08:685][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.03.46:066][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.03.46:254][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.03.19-12.03.48:371][304]LogSavePackage: Save=42.20ms
+[2018.03.19-12.03.48:371][304]LogSavePackage: Moving '../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Saved/FirstPersonProjectileE17654A5467E16CEED339FBB8008E918.tmp' to '../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
+[2018.03.19-12.03.48:382][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Frederik H/Desktop/Git/Unreal FPS/Unreal-Projekt-2018-FF/Unreal_Projekt_2018/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
