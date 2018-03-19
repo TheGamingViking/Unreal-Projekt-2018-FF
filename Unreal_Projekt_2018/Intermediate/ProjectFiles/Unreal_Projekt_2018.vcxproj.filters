@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Unreal_Projekt_2018.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{12B3627A-E4C2-46D4-9AC6-4478C075F324}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Unreal_Projekt_2018.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Unreal_Projekt_2018Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{AF30DC99-DD1B-4A3A-8503-C0231FA62D3E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Unreal_Projekt_2018">
+			<UniqueIdentifier>{5B924845-E4C8-4E18-863F-FE7D2CE33B05}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018.Build.cs">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018.cpp">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018.h">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018Character.cpp">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018Character.h">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018GameMode.cpp">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018GameMode.h">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018HUD.cpp">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018HUD.h">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018Projectile.cpp">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018Projectile.h">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
