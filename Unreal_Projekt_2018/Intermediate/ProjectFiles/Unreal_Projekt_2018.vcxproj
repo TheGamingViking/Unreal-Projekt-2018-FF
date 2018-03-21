@@ -415,6 +415,10 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\DoorOpener.cpp" />
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\DoorOpener.h" />
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\TargetScripting.cpp" />
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\TargetScripting.h" />
 		<None Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018.Build.cs" />
 		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018.cpp" />
 		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018.h" />

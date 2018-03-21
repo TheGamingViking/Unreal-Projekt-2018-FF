@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I "C:\Users\Frederik H\Desktop\Git\Unreal FPS\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Source"
-/I "C:\Users\Frederik H\Desktop\Git\Unreal FPS\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Projekt_2018"
-/I "C:\Users\Frederik H\Desktop\Git\Unreal FPS\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Source\Unreal_Projekt_2018"
+/I "C:\Users\FrederikTaaningGrund\Desktop\Unreal Projekt 2018 FF\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Source"
+/I "C:\Users\FrederikTaaningGrund\Desktop\Unreal Projekt 2018 FF\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Projekt_2018"
+/I "C:\Users\FrederikTaaningGrund\Desktop\Unreal Projekt 2018 FF\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Source\Unreal_Projekt_2018"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -358,9 +358,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Frederik H\Desktop\Git\Unreal FPS\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Projekt_2018\Unreal_Projekt_2018GameMode.gen.cpp"
-/FI"C:\Users\Frederik H\Desktop\Git\Unreal FPS\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Projekt_2018\Definitions.Unreal_Projekt_2018.h"
-/Fo"C:\Users\Frederik H\Desktop\Git\Unreal FPS\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Projekt_2018\Unreal_Projekt_2018GameMode.gen.cpp.obj"
+"C:\Users\FrederikTaaningGrund\Desktop\Unreal Projekt 2018 FF\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Inc\Unreal_Projekt_2018\Unreal_Projekt_2018GameMode.gen.cpp"
+/FI"C:\Users\FrederikTaaningGrund\Desktop\Unreal Projekt 2018 FF\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Projekt_2018\Definitions.Unreal_Projekt_2018.h"
+/Fo"C:\Users\FrederikTaaningGrund\Desktop\Unreal Projekt 2018 FF\Unreal-Projekt-2018-FF\Unreal_Projekt_2018\Intermediate\Build\Win64\UE4Editor\Development\Unreal_Projekt_2018\Unreal_Projekt_2018GameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4

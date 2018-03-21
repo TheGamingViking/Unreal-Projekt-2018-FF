@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Unreal_Projekt_2018.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{12B3627A-E4C2-46D4-9AC6-4478C075F324}</UniqueIdentifier>
+			<UniqueIdentifier>{94BAB39E-C77F-4465-8C76-741D38F24BB1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Unreal_Projekt_2018.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{AF30DC99-DD1B-4A3A-8503-C0231FA62D3E}</UniqueIdentifier>
+			<UniqueIdentifier>{7BD30981-C1CC-42F4-91AE-93FFBFD6756D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,8 +31,20 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Unreal_Projekt_2018">
-			<UniqueIdentifier>{5B924845-E4C8-4E18-863F-FE7D2CE33B05}</UniqueIdentifier>
+			<UniqueIdentifier>{F9E1A040-C507-4B89-9E68-FFDD6C54C18A}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\DoorOpener.cpp">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\DoorOpener.h">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Unreal_Projekt_2018\TargetScripting.cpp">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Unreal_Projekt_2018\TargetScripting.h">
+			<Filter>Source\Unreal_Projekt_2018</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\Unreal_Projekt_2018\Unreal_Projekt_2018.Build.cs">
 			<Filter>Source\Unreal_Projekt_2018</Filter>
 		</None >
