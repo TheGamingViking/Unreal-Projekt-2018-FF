@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeUnreal_Projekt_2018_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Unreal_Projekt_2018",
 				PKG_CompiledIn | 0x00000000,
-				0x898E9B1D,
+				0x5A582E03,
 				0xF11EDFAA,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

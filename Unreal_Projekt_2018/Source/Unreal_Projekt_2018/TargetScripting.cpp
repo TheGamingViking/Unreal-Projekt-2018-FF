@@ -24,6 +24,7 @@ void UTargetScripting::BeginPlay()
 	Super::BeginPlay();
 	owner = GetOwner();
 	triggerType = GetWorld()->GetFirstPlayerController()->GetPawn();
+	previousLocation = owner->GetActorLocation();
 	// ...
 	
 }
@@ -32,12 +33,20 @@ void UTargetScripting::PopOut()
 {
 	if (doesFlip)
 	{
-		FRotator newRotation = FRotator(standingAngle, 0.0f, 0.0f);
+		FRotator newRotation = FRotator(standingAngle, owner->GetActorRotation().Yaw, 0.0f);
 		owner->SetActorRotation(newRotation);
 	}
-	else if (doesSlide)
+	if (doesSlide&&moveY)
 	{
-		//FTransform newTransformation = FTransform()
+		newLocation = previousLocation;
+		newLocation.Y += speed;
+		owner->SetActorLocation(newLocation);
+	}
+	if (doesSlide&&moveX)
+	{
+		newLocation = previousLocation;
+		newLocation.X += speed;
+		owner->SetActorLocation(newLocation);
 	}
 }
 
@@ -45,12 +54,12 @@ void UTargetScripting::PopBack()
 {
 	if (doesFlip)
 	{
-		FRotator newRotation = FRotator(downAngle, 0.0f, 0.0f);
+		FRotator newRotation = FRotator(downAngle, owner->GetActorRotation().Yaw, owner->GetActorRotation().Roll);
 		owner->SetActorRotation(newRotation);
 	}
 	else if (doesSlide)
 	{
-
+		owner->SetActorLocation(previousLocation);
 	}
 }
 
@@ -60,13 +69,27 @@ void UTargetScripting::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	if (targetTrigger && targetTrigger->IsOverlappingActor(triggerType))
 	{
-		PopOut();
-		timer = GetWorld()->GetTimeSeconds();
+		if (!hasBeenTriggerd)
+		{
+			timer = GetWorld()->GetTimeSeconds();
+			hasBeenTriggerd = true;
+		}
 	}
-	if (timer + upTime<GetWorld()->GetTimeSeconds())
+	if (targetTrigger && targetTrigger->IsOverlappingActor(triggerType))
 	{
-		PopBack();
+		if (timer + triggerDelay > GetWorld()->GetTimeSeconds())
+		{
+			PopOut();
+		}
+		
 	}
-	// ...
+
+	if (hasBeenTriggerd)
+	{
+		if (timer + upTime+triggerDelay<GetWorld()->GetTimeSeconds())
+		{
+			PopBack();
+		}
+	}
 }
 

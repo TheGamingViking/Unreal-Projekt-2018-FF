@@ -25,6 +25,16 @@ public:
 	UPROPERTY(EditAnywhere)
 		bool doesSlide = false;
 	UPROPERTY(EditAnywhere)
+		float upTime = 4.0f;
+	UPROPERTY(EditAnywhere)
+		float speed;
+	UPROPERTY(EditAnywhere)
+		bool moveX = false;
+	UPROPERTY(EditAnywhere)
+		bool moveY = false;
+	UPROPERTY(VisibleAnywhere)
+		bool hasBeenTriggerd = false;
+	UPROPERTY(EditAnywhere)
 		ATriggerVolume* targetTrigger;
 	AActor* owner;
 	void UTargetScripting::PopOut();
@@ -32,8 +42,9 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		AActor* triggerType;
 	float timer;
-	UPROPERTY(EditAnywhere)
-		float upTime = 4.0f;
+	float triggerDelay = 1.0f;
+	FVector previousLocation;
+	FVector newLocation;
 
 protected:
 	// Called when the game starts
